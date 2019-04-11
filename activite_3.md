@@ -28,7 +28,7 @@ Qu'est-ce qu'une branche.</p>
 /////                                        //////
 ///////////////////////////////////////////////////
 
-<p>la commande git log et trés utile ,car elle te permettra d'avoir un aperçu de l'historique des tous traitements qui ont été apportés aux fichiers. avec des informations importants qui te permettront de t'y retrouverer facilement et rapidement.<br>
+<p>la commande git log et trés utile ,car elle te permettra d'avoir un aperçu de l'historique des tout traitements qui ont été apportés aux fichiers avec des informations importantes qui te permettront de t'y retrouverer facilement et rapidement.<br>
 voici ce que l'ont a quand on appelle cette commande :<br>
 
 - Un SHA( numero d'identifiant unique ) avec le mot "commit" suivi d'un numero unique <br>
@@ -39,8 +39,9 @@ commit b89a8c3c5cb2114e3d0d2709e6edbe1a391b72dc<br>
 Author: Barkhoum <smguesmia@gmail.com><br>
 Date:   Thu Apr 11 17:56:30 2019 +0200 <br>
 
-Ces informations là, ont etaient renseignées l'ors de l'instalation du logiciel sur le pc. Si un jour tu es ammené à travailler sur un projet  et que tu as des questions concernant ce projet, tu pourras grace à ces infos contacter la personne qui a travailler sur le projet.
-Pour terminer, comme il se doit avec la principale fonction d'un historique, la date et l'heure du ou des commits.
+Ces informations là, ont etaient renseignées l'ors de l'instalation du logiciel sur le pc.<br>
+Si un jour tu es ammené à travailler sur un projet  et que tu as des questions concernant celui-ci, tu pourras grace à ces informations, contacter la personne qui a travailler sur le projet.<br>
+Pour terminer, comme il se doit avec la principale fonction d'un historique, la date et l'heure du ou des commits.<br>
 
 ///////////////////////////////////////////////////
 /////										 //////
@@ -52,8 +53,9 @@ Pour terminer, comme il se doit avec la principale fonction d'un historique, la 
 
 Grace à cette fonctionnalité, tu auras un point de vu pratique sur toutes les modifications. Tu pourras ajouter du code et aussi revenir sur tes versions précédentes si tu le souhaite.<br>
 
-Comme un arbre, tu pourras en créer plusieurs branche, afin que d'autre développeurs puissent travailler sur l'une de ses branches et pour ne pas impacter sur ton projet.<br>
-voici un exemple :
+Comme un arbre, tu pourras en créer plusieurs branches afin que d'autre développeurs puissent travailler en parallele sur l'une d'entre elle pour ne pas impacter sur ton projet.<br>
+
+voici un exemple de 3 commits:
 
 smgue@LAPTOP-MC81QAEV MINGW64 ~/activite_3 (master)
 $ git log
