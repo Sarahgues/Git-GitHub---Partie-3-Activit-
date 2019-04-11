@@ -35,6 +35,13 @@ Qu'est-ce qu'une branche.</p>
 /////                                        //////
 ///////////////////////////////////////////////////
 
+la commande git log et tres utile car elle te permettra d'avoir un aperçu de l'historique des traitements qui ont ete apporte au fichier.
+avec:
+- un SHA( numero d'identifiant unique ) avec le mon commit suivi d'un numero 
+- d'un ligne reservé aux informations concernant l'auteur: prenom et adresse mail . ces informations là ont etaient renseignées l'ors de l'instalation du logiciel sur le pc. Si un jour tu es ammené a travailler sur un projet que tu ne connais pasou que tu ne comprends , tu pourras grace a ses infos contatcer la personne qui a travailler sur le projet.
+et enfin pour terminer comme il se doit avec la principale focntion d'un historique, la date et l'heure du ou des commits.
+
+
 
 
 
