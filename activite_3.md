@@ -15,7 +15,10 @@ Qu'est-ce qu'une branche.</p>
 ///// <h3> Qu'est-ce qu'un commit; </h3>     //////
 /////                                        //////
 ///////////////////////////////////////////////////
+  le Commit veut dire : que dés que tu avances sur ton projet et qu'il a atteind un etat et que tu souhaite l'enregister, tu dois commité avec la commande "$ git commit "<br>
+  exemple:  $ Git commit -m "ici commentaire descriptif de la modif"<br>
 
+  Tres important ! Ajoute toujours un commentaire qui permettra de tracer toutes tes modifications.
 
 
 
