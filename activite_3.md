@@ -54,6 +54,7 @@ Author: Barkhoum <smguesmia@gmail.com>
 Date:   Thu Apr 11 17:56:30 2019 +0200 
 
 Ces informations-là, ont étaient renseignées lors de l'installation du logiciel sur le pc. Si un jour tu es  amené à travailler sur un projet  et que tu as des questions concernant celui-ci, tu pourras grâce à ces informations contacter la personne qui a travaillé sur le projet. Pour terminer, comme il se doit avec la principale fonction d'un historique, la date et l'heure du ou des commits.
+
 ------------------------------------------------------------------------------------------------
 
 ## Qu'est ce qu'une branche ? 
@@ -66,12 +67,13 @@ Comme sur la photo à droite :
 *	La commande Git checkout te permet de basculer d’une branche à l’autre. Ici j’ai demandé de basculer sur la branche  version_1.
 *	La commande Git status te permet de vérifier le statut de la branche et te dit qu’il n’a pas de commit , mais que tout va bien !
 *	J’ai appelé la commande git branch pour vérifier que je suis bien sur la branche version_1.
-*5)	J’ai finalement  basculé sur la branche master avec la commande checkout.
-*6)	Pour finir j’ai vérifié que je suis bien sur la branche master grâce à l’étoile. 
+*	J’ai finalement  basculé sur la branche master avec la commande checkout.
+*	Pour finir j’ai vérifié que je suis bien sur la branche master grâce à l’étoile. 
+--------------------------------------------------------------------------------------------------------------------------------------------
  
 smgue@LAPTOP-MC81QAEV MINGW64 ~/activite_3 (master)
 $ git branch
-* master
+/*/ master
   version_1
 
 smgue@LAPTOP-MC81QAEV MINGW64 ~/activite_3 (master)
@@ -86,7 +88,7 @@ nothing to commit, working tree clean
 smgue@LAPTOP-MC81QAEV MINGW64 ~/activite_3 (version_1)
 $ git branch
   master
-* version_1
+/*/ version_1
 
 smgue@LAPTOP-MC81QAEV MINGW64 ~/activite_3 (version_1)
 $ git checkout master
@@ -94,11 +96,12 @@ Switched to branch 'master'
 
 smgue@LAPTOP-MC81QAEV MINGW64 ~/activite_3 (master)
 $ git branch
-* master
+/*/ master
   version_1
 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 Comme un arbre, tu pourras en créer plusieurs branches afin que d'autres développeurs puissent travailler en parallele sur l'une d'entre elles pour ne pas impacter sur ton projet.
 
 Aussi avec certaines commandes de Git, tu pourras les associer à ton repository et avoir un historique détaillé et d'accéder  à savoir  "qui a fait quoi" !  
