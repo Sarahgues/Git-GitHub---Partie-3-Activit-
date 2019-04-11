@@ -1,7 +1,7 @@
 Git & GitHub - Partie 3 Activité
 =================================
 
-#Enoncé : Je vais vous demander d'expliquer, avec vos propres mots, les points suivants : 
+### Enoncé : Je vais vous demander d'expliquer, avec vos propres mots, les points suivants : 
 
 Qu'est-ce qu'un commit;
 À quoi sert la commande git log;
@@ -11,7 +11,7 @@ Imaginez que vous parlez à un ami qui connaît le développement web, mais n'a 
 
 -------------------------------------------------------------------------------------------------
 
-#Qu'est-ce qu'un commit? 
+##Qu'est-ce qu'un commit? 
 
 
 
